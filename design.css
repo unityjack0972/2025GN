@@ -1,10 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 a {
     color: inherit;
     text-decoration: none;
   }
 
 .login {
+    color: grey;
     margin-left: 1500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     display: flex;
     gap: 25px;
     
@@ -15,12 +24,11 @@ a {
 }
 
 #logo {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .header_2 {
     display: flex;
-
 }
 
 .contents {
@@ -35,28 +43,32 @@ input{
     display: none;
 }
 
-.red {
-    background-color: red;
+.one {
+    background-image: url(./선수제공파일/공통/images/22.JPG);
+    background-size: cover;
 }
 
 
-.blue {
-    background-color: blue;
+.two {
+    background-image: url(./선수제공파일/공통/images/24.JPG);
+    background-size: cover;
 }
 
 
-.green {
-    background-color: green;
+.three {
+    background-image: url(./선수제공파일/공통/images/23.JPG);
+    background-size: cover;
 }
 
 #visual {
     position: relative;
-    width: 80%;
-    height: 600px;
+    width: 100%;
+    height: 800px;
     background-color: gray;
     overflow: hidden;
     margin: auto;
-    margin-top: 100px;
+    margin-top: -10px;
+    
 }
 
 #visual:hover .slides {
@@ -110,14 +122,15 @@ input{
 }
 
 .buttons {
-    width: 80%;
-    margin: auto;
-    position: relative;
+    top: 450px;
+    width: 100%;
+    position: absolute;
 }
 
 .button {
     width: 100%;
     position: absolute;
+    margin-left: -5px;
     top: 0px;
     left: 0px;
     display: flex;
