@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>반응형웹</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 15px;
+            background-color: bisque;
+            text-align: center;
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .main {
+            display: flex;
+            margin-top: 20px;
+        }
+        .menu, .side {flex: 1;}
+        .content {flex: 4;}
+        .menu a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            color: black;
+            background-color: rgb(0, 0, 153);
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            margin-bottom: 1.1px;
+        }
+        .content {
+            padding: 0 10px;
+        }
+        .content h2 {
+            margin-top: 0;
+        }
+        footer {
+            padding: 5px;
+            font-size: 15px;
+            text-align: center;
+            background-color: bisque;
+            color: black;
+        }
+        @media screen and (min-width: 481px) and (max-width: 760px) {
+            .main {flex-direction: column;}
+            .content { padding: 0 0;}
+        }
+        @media screen and (min-width: 481px) and (max-width: 760px) {
+            header {color: red;}
+        }
+    </style>
+</head>
+
+<body>
+    <header>Responsive Web</header>
+    <div class="main">
+        <div class="menu">
+            <a href="#">메뉴1</a>
+            <a href="#">메뉴2</a>
+            <a href="#">메뉴3</a>
+            <a href="#">메뉴4</a>
+            <a href="#">메뉴5</a>
+        </div>
+        <div class="content">
+            <h2>반응형 웹이란 무엇일까?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem aperiam ducimus incidunt ab
+                placeat cum accusamus laboriosam quidem porro saepe, fugiat provident molestias et quis magnam
+                architecto nemo odio.</p>
+        </div>
+        <div class="side">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio rem magni eligendi ipsam veritatis
+                repellat similique necessitatibus voluptas, pariatur cumque non quaerat, in tenetur placeat? Dolore nemo
+                soluta modi rerum.</p>
+        </div>
+    </div>
+    <footer>&copy; 2024 홍길동 All rights reserved</footer>
+</body>
+
+</html>
