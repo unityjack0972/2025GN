@@ -300,13 +300,13 @@ input {
 
 .section_title {
     justify-content: center;
-    display: flex;
     margin: 20vh;
     text-align: center;
     font-size: 5rem;
     letter-spacing: 1rem;
     color: rgb(255, 255, 255);
     text-shadow: rgb(255, 153, 0) 0 0 0.8rem;
+    line-height: 2rem;
 }
 
 .categories {
@@ -461,7 +461,106 @@ input {
     font-size: 1.85rem;
 }
 
+.section_title2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: rgb(124, 124, 124);
+    text-shadow: 0 0 0.1rem rgb(187, 187, 187);
+}
 
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25211F;
+    width: 100%;
+    height: 60%;
+    margin-top: 25vh;
+}
+
+.footer_contents {
+    
+    width: 100%;
+    letter-spacing: 0.15rem;
+    color: white;
+}
+
+.footer_contents > h2 {
+    font-size: 1.25rem;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.footer_contents_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    padding: 2rem;
+    border-bottom: 0.15rem solid #FFB429;
+}
+
+.footer_contents_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.15rem solid #FFB429;
+}
+
+#footer_head {
+    font-size: 2.5rem;
+}
+
+.social {
+    display: flex;
+    gap: -3rem;
+    position: relative;
+    width: 20vw;
+    height: 3.5vw;
+}   
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    width: 20vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.social > div {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+}
+
+.social > div > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.social > div:hover > img.begone {
+    opacity: 0;
+}
+
+#copyright {
+    margin: 5vh;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+}
 
 
 
