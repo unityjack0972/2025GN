@@ -468,7 +468,37 @@ input {
     text-shadow: 0 0 0.1rem rgb(187, 187, 187);
 }
 
+.productin_pictogram {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    text-align: center;
+    font-size: 1.25rem;
+}
 
+.productin_pictogram > div > img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.productin_stages_container {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 3%;
+    padding: 2% 19%;
+}
+
+.productin_stage {
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 15vh;
+    border: 0.5rem solid tomato;
+    background-color: tomato;
+    box-shadow: #25211F 0.25rem 0.25rem 0.25rem;
+}
 
 footer {
     display: flex;
@@ -574,7 +604,7 @@ footer {
 ░░░░░█████████████░░░░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░█░░█░░░░░░
+░░░░░█░░░░░░░░█░░█░░░░░░
 ░░░░░█░░░░░░░░█░░█░░░░░░
 ░░░░░██████████░░█░░░░░░
 ░░░░░██░░░░░░░█░░█░░░░░░
