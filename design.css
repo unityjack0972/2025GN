@@ -143,6 +143,12 @@ a {
     font-size: 2rem;
 }
 
+#intro:hover, #every:hover, #popular:hover, #basket:hover {
+    color: rgb(255, 153, 0);
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
 input {
     display: none;
 }
@@ -495,10 +501,14 @@ input {
     justify-content: center;
     width: 30vw;
     height: 15vh;
-    border: 0.5rem solid tomato;
-    background-color: tomato;
+    border: 0.5rem solid rgb(255, 172, 71);
+    background-color: rgb(255, 172, 71);
     box-shadow: #25211F 0.25rem 0.25rem 0.25rem;
 }
+
+
+
+
 
 footer {
     display: flex;
