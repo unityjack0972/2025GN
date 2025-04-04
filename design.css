@@ -18,10 +18,17 @@ a {
     position: fixed;
     z-index: 9;
     background-color: white;
+    box-shadow: 0 0 0.5rem rgb(255, 153, 0);
     top: 0;
     left: 0;
     width: 100%;
 }
+
+#navbar:hover {
+    background-color: white;
+}
+
+
 
 .loading {
     position: fixed;
@@ -129,6 +136,11 @@ a {
     margin-left: 25%;
     margin-bottom: 0.25%;
     width: 50%;
+}
+
+#logo:hover {
+    transition: all 8s;
+    transform: rotate(7200deg);
 }
 
 .header_2 {
